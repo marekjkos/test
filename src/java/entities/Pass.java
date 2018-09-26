@@ -92,14 +92,14 @@ public class Pass implements Serializable {
         this.type = type;
     }
 
-    private long certificateID;
+    private Long  certificateID;
 
     /**
      * Get the value of certificateID
      *
      * @return the value of certificateID
      */
-    public long getCertificateID() {
+    public Long  getCertificateID() {
         return certificateID;
     }
 
@@ -108,7 +108,7 @@ public class Pass implements Serializable {
      *
      * @param certificateID new value of certificateID
      */
-    public void setCertificateID(long certificateID) {
+    public void setCertificateID(Long  certificateID) {
         this.certificateID = certificateID;
     }
     
@@ -155,14 +155,14 @@ public class Pass implements Serializable {
     }
     
     
-    private long poolID;
+    private Long  poolID;
 
     /**
      * Get the value of poolID
      *
      * @return the value of poolID
      */
-    public long getPoolID() {
+    public Long  getPoolID() {
         return poolID;
     }
 
@@ -171,19 +171,19 @@ public class Pass implements Serializable {
      *
      * @param poolID new value of poolID
      */
-    public void setPoolID(long poolID) {
+    public void setPoolID(Long  poolID) {
         this.poolID = poolID;
     }
     
     
-    private int useageCount;
+    private Integer useageCount;
 
     /**
      * Get the value of useageCount
      *
      * @return the value of useageCount
      */
-    public int getUseageCount() {
+    public Integer getUseageCount() {
         return useageCount;
     }
 
@@ -192,7 +192,7 @@ public class Pass implements Serializable {
      *
      * @param useageCount new value of useageCount
      */
-    public void setUseageCount(int useageCount) {
+    public void setUseageCount(Integer useageCount) {
         this.useageCount = useageCount;
     }
     
@@ -239,14 +239,14 @@ public class Pass implements Serializable {
     }
     
     
-    private int minutesRemaining;
+    private Integer minutesRemaining;
 
     /**
      * Get the value of minutesRemaining
      *
      * @return the value of minutesRemaining
      */
-    public int getMinutesRemaining() {
+    public Integer getMinutesRemaining() {
         return minutesRemaining;
     }
 
@@ -255,19 +255,19 @@ public class Pass implements Serializable {
      *
      * @param minutesRemaining new value of minutesRemaining
      */
-    public void setMinutesRemaining(int minutesRemaining) {
+    public void setMinutesRemaining(Integer minutesRemaining) {
         this.minutesRemaining = minutesRemaining;
     }
     
     
-    private int priorityLevel;
+    private Integer priorityLevel;
 
     /**
      * Get the value of priorityLevel
      *
      * @return the value of priorityLevel
      */
-    public int getPriorityLevel() {
+    public Integer getPriorityLevel() {
         return priorityLevel;
     }
 
@@ -276,19 +276,19 @@ public class Pass implements Serializable {
      *
      * @param priorityLevel new value of priorityLevel
      */
-    public void setPriorityLevel(int priorityLevel) {
+    public void setPriorityLevel(Integer priorityLevel) {
         this.priorityLevel = priorityLevel;
     }
     
     
-    private int securityLevel;
+    private Integer securityLevel;
 
     /**
      * Get the value of securityLevel
      *
      * @return the value of securityLevel
      */
-    public int getSecurityLevel() {
+    public Integer getSecurityLevel() {
         return securityLevel;
     }
 
@@ -297,19 +297,19 @@ public class Pass implements Serializable {
      *
      * @param securityLevel new value of securityLevel
      */
-    public void setSecurityLevel(int securityLevel) {
+    public void setSecurityLevel(Integer securityLevel) {
         this.securityLevel = securityLevel;
     }
     
     
-    private int clientVersion;
+    private Integer clientVersion;
 
     /**
      * Get the value of clientVersion
      *
      * @return the value of clientVersion
      */
-    public int getClientVersion() {
+    public Integer getClientVersion() {
         return clientVersion;
     }
 
@@ -318,19 +318,19 @@ public class Pass implements Serializable {
      *
      * @param clientVersion new value of clientVersion
      */
-    public void setClientVersion(int clientVersion) {
+    public void setClientVersion(Integer clientVersion) {
         this.clientVersion = clientVersion;
     }
     
     
-    private int licensorVersion;
+    private Integer licensorVersion;
 
     /**
      * Get the value of licensorVersion
      *
      * @return the value of licensorVersion
      */
-    public int getLicensorVersion() {
+    public Integer getLicensorVersion() {
         return licensorVersion;
     }
 
@@ -339,19 +339,19 @@ public class Pass implements Serializable {
      *
      * @param licensorVersion new value of licensorVersion
      */
-    public void setLicensorVersion(int licensorVersion) {
+    public void setLicensorVersion(Integer licensorVersion) {
         this.licensorVersion = licensorVersion;
     }
     
     
-    private int passSystemVersion;
+    private Integer passSystemVersion;
 
     /**
      * Get the value of passSystemVersion
      *
      * @return the value of passSystemVersion
      */
-    public int getPassSystemVersion() {
+    public Integer getPassSystemVersion() {
         return passSystemVersion;
     }
 
@@ -360,19 +360,19 @@ public class Pass implements Serializable {
      *
      * @param passSystemVersion new value of passSystemVersion
      */
-    public void setPassSystemVersion(int passSystemVersion) {
+    public void setPassSystemVersion(Integer passSystemVersion) {
         this.passSystemVersion = passSystemVersion;
     }
     
     
-    private int authKeyVersion;
+    private Integer authKeyVersion;
 
     /**
      * Get the value of authKeyVersion
      *
      * @return the value of authKeyVersion
      */
-    public int getAuthKeyVersion() {
+    public Integer getAuthKeyVersion() {
         return authKeyVersion;
     }
 
@@ -381,7 +381,7 @@ public class Pass implements Serializable {
      *
      * @param authKeyVersion new value of authKeyVersion
      */
-    public void setAuthKeyVersion(int authKeyVersion) {
+    public void setAuthKeyVersion(Integer authKeyVersion) {
         this.authKeyVersion = authKeyVersion;
     }
     
@@ -448,14 +448,14 @@ public class Pass implements Serializable {
         this.strFieldEnc1 = strFieldEnc1;
     }    
     
-    private long clientID;
+    private Long  clientID;
 
     /**
      * Get the value of clientID
      *
      * @return the value of clientID
      */
-    public long getClientID() {
+    public Long  getClientID() {
         return clientID;
     }
 
@@ -464,19 +464,19 @@ public class Pass implements Serializable {
      *
      * @param clientID new value of clientID
      */
-    public void setClientID(long clientID) {
+    public void setClientID(Long  clientID) {
         this.clientID = clientID;
     }
     
     
-    private long userID;
+    private Long  userID;
 
     /**
      * Get the value of userID
      *
      * @return the value of userID
      */
-    public long getUserID() {
+    public Long  getUserID() {
         return userID;
     }
 
@@ -485,19 +485,19 @@ public class Pass implements Serializable {
      *
      * @param userID new value of userID
      */
-    public void setUserID(long userID) {
+    public void setUserID(Long  userID) {
         this.userID = userID;
     }
     
     
-    private long licensorID;
+    private Long  licensorID;
 
     /**
      * Get the value of licensorID
      *
      * @return the value of licensorID
      */
-    public long getLicensorID() {
+    public Long  getLicensorID() {
         return licensorID;
     }
 
@@ -506,7 +506,7 @@ public class Pass implements Serializable {
      *
      * @param licensorID new value of licensorID
      */
-    public void setLicensorID(long licensorID) {
+    public void setLicensorID(Long  licensorID) {
         this.licensorID = licensorID;
     }
 
